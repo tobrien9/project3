@@ -11,12 +11,12 @@ function initMap() {
   });
 
   var infowindow = new google.maps.InfoWindow({
-    content: "My school",
+    content: "My elemantary school",
   });
   infowindow.open(map, marker);
 
     var features = [
-    { position: { lat: 41.69603538026582, lng: -87.70554806440326 }, type: "Mt. Greenwood" },
+    { position: { lat: 41.69603538026582, lng: -87.70554806440326 }, type: "Mt. Greenwood School" },
   ];
   
 for (let i = 0; i < features.length; i++) {
