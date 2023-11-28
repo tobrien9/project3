@@ -1,22 +1,22 @@
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 41.69603538026582, lng: -87.70554806440326 },
+    center: { lat: 41.68991251123738, lng: -87.71773233356387 },
     zoom: 15,
   });
 
   var marker = new google.maps.Marker({
-    position: { lat: 41.69603538026582, -87.70554806440326 },
+    position: { lat: 41.68991251123738, lng: -87.71773233356387 },
     map: map,
   });
 
   var infowindow = new google.maps.InfoWindow({
-    content: "My elemantary school",
+    content: "My High school",
   });
   infowindow.open(map, marker);
 
     var features = [
-    { position: { lat: 41.69603538026582, lng: -87.70554806440326 }, type: "Mt. Greenwood School" },
+    { position: { lat: 41.68991251123738, lng: -87.71773233356387 }, type: "CHSAS School" },
   ];
   
 for (let i = 0; i < features.length; i++) {
