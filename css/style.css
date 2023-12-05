@@ -64,9 +64,9 @@ h1, h3 {
   text-align: center;
   text-decoration: underline;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 40px;
   }
    }
 img {
@@ -78,9 +78,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 40px;
   }
 iframe {
  width: 570px;
