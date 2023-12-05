@@ -4,6 +4,7 @@
   border: 5px;
   border-radius: 5px;
 }
+
 #menu-container {
   position: relative;
   width: 100%;
@@ -63,10 +64,7 @@ h1, h3 {
   text-align: center;
   text-decoration: underline;
 }
-  @media (max-width: 650px) {
-  body {
-    font-size: 18px;
-  }
+  
 img {
   width: 500px;
   height: auto;
@@ -76,11 +74,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-  }
-@media (max-width: 500px) {
-  body {
-    font-size: 20px;
-  }
+  
 iframe {
  width: 570px;
   height: 315px;
@@ -88,4 +82,4 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
- }
+ 
